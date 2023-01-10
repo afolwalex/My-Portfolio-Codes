@@ -32,7 +32,7 @@ const Contact = () => {
 				</div>
 				<p className="top">Here is my resume for your perusal.</p>
 				<a
-					href="https://drive.google.com/file/d/1TLLbvbIfYsJZ6nICm6PR8pPfF3TQWARN/view"
+					href="https://drive.google.com/file/d/1mz-Bu3HSzwkj157dhb3lhzBbQUM_ee8s/view"
 					target={"_blank"}
 					className="main-btn"
 				>
