@@ -3,138 +3,102 @@ import GetriPayImg from "../src/images/getripay.jpeg";
 import GetriSaveImg from "../src/images/getrisave.jpeg";
 import BetaDisneyImg from "../src/images/betadisney.jpg";
 import AceAfricaImg from "../src/images/aceafrica.jpg";
-import SoftnelImg from "../src/images/softnel.jpg";
-import SkoolneticsImg from "../src/images/skoolnetics.jpg";
-import DreyWalletImg from "../src/images/dreywallet.jpg";
+import BluepiloImg from "../src/images/bluepilo.png";
 
 const projects = [
 	{
 		id: 1,
-		title: "Ace Africa",
-		description:
-			"A website for a tech Startup focused on teaching software development.",
-		task: [
-			"Developed the whole website using React.",
-			"Includes an Enquiry section that directs to WhatsApp",
-			"Has an amazing design for Stacks registration",
-			"Built the registration backend with Express JS",
-		],
-		img: AceAfricaImg,
-		link: "https://aceafrica.netlify.app",
+		title: "Bluepilo Inventory",
+		description: "An Inventory Solution available on web and mobile",
+		task: "In charge of the developement and management of the web solution and mobile app",
+		img: BluepiloImg,
+		link: "https://app.bluepilo.com",
 	},
 	{
 		id: 2,
 		title: "Whokup",
 		description: "A mobile app for giving feedbacks on locations.",
-		task: [
-			"Developed the mobile app using React Native",
-			"Developed the backend using Express Js",
-			"Worked with two other team mates on other parts of the app.",
-			"App will be live on Google Play and App Store on the release date.",
-		],
+		task: "Developed and deployed the mobile app",
 		img: WhokupImg,
-		link: "https://whokup.com",
+		link: "https://play.google.com/store/apps/details?id=com.whokup_mobile",
 	},
 	{
 		id: 3,
-		title: "Skoolnetics",
-		description: "A school management system",
-		task: [
-			"Part of a team of four involved in the development of this system.",
-			"Front view and Backend built with Express Js with Pug template engine.",
-			"Features includes: Timetable, Result Compilation, Attendance, CBT, Staff, Parent and Student management.",
-			"It also includes Assignment tracking, Session management and reports.",
-		],
-		img: SkoolneticsImg,
-		link: "https://skoolnetics.herokuapp.com/",
+		title: "BetaDisney",
+		description:
+			"An E-Commerce website you can buy computing devices, mobile phones and other electronics",
+		task: "Project lead on the product.",
+		img: BetaDisneyImg,
+		link: "https://www.betadisney.com/",
 	},
 	{
 		id: 4,
 		title: "GetriPay",
 		description: "A trusted, fast, secure and convenient payment solution",
-		task: [
-			"Part of a team of brilliant minds that built this.",
-			"Fully involved in the development of the mobile app.",
-			"Mobile App is built with React Native",
-			"App is live on Google PlayStore and Apple Store.",
-		],
+		task: "In charge of the development and management",
 		img: GetriPayImg,
-		link: "https://www.getripay.com/",
+		link: "https://play.google.com/store/apps/details?id=com.getripay",
 	},
 	{
 		id: 5,
-		title: "BetaDisney",
+		title: "Ace Africa",
 		description:
-			"An E-Commerce website you can buy computing devices, mobile phones and other electronics",
-		task: [
-			"Developed the web app using React for FrontEnd and Express Js for Backend",
-			"Contains all the basic feature of an E-Commerce solution",
-			"Impressive design with good category management",
-		],
-		img: BetaDisneyImg,
-		link: "https://www.betadisney.com/",
+			"A website for a tech Startup focused on teaching software development.",
+		task: "Developed and Designed the website.",
+		img: AceAfricaImg,
+		link: "https://aceafrica.netlify.app",
 	},
 	{
 		id: 6,
 		title: "GetriSave",
 		description:
 			"Helps you secure your money with interests. A platform that allows you to save.",
-		task: [
-			"Part of a team of brilliant minds that built this.",
-			"Fully participated in the frontend development of this solution.",
-			"Mobile App built with React Native.",
-			"Also involved in the web version built with React.",
-			"App is live on Google PlayStore and Apple Store.",
-		],
+		task: "In charge of the development and management",
 		img: GetriSaveImg,
 		link: "https://www.getrisave.com/",
-	},
-	{
-		id: 7,
-		title: "DreyWallet",
-		description: "A platform to sell Gift Cards and Cryptocurrency",
-		task: [
-			"Part of a team of two that built this.",
-			"Front view and Backend built with Express Js with Pug template engine.",
-			"Impressive designs with an amazing dashboard for the users.",
-		],
-		img: DreyWalletImg,
-		link: "https://drewallet.com/",
-	},
-	{
-		id: 8,
-		title: "Softnel",
-		description: "A Demo for Softnel official website",
-		task: [
-			"Built with React",
-			"Impressive designs with nice animations.",
-			"A one page design with no scrolling.",
-		],
-		img: SoftnelImg,
-		link: "https://softnel.herokuapp.com/",
 	},
 ];
 
 const others = [
-	{ id: 1, link: "https://incothekgroup.com/", name: "IncothekGroup" },
-	{ id: 2, link: "https://curatorams.herokuapp.com/", name: "Curator" },
+	{
+		id: 1,
+		link: "https://play.google.com/store/search?q=splitmulti&c=apps",
+		name: "Splitmulti",
+		desc: "An E-commerce mobile App.",
+	},
+	{
+		id: 2,
+		link: "https://famwatch.ng",
+		name: "FamWatch",
+		desc: `A Mobile App to track your loved ones.`,
+	},
+	{
+		id: 3,
+		link: "https://hellospin.ng",
+		name: "HelloSpin",
+		desc: `A Web App to play games.`,
+	},
+	{
+		id: 4,
+		link: "https://getripay.com/pos",
+		name: "GetriPay POS",
+		desc: `A POS Solution`,
+	},
 ];
 
 const skills = [
-	{ id: 1, name: "HTML" },
-	{ id: 2, name: "CSS/SCSS/BootStrap/Tailwind" },
-	{ id: 3, name: "JavaScript" },
-	{ id: 4, name: "Git" },
-	{ id: 5, name: "Github" },
-	{ id: 6, name: "Vue" },
-	{ id: 7, name: "React" },
-	{ id: 8, name: "React Native" },
-	{ id: 9, name: "NodeJs" },
-	{ id: 10, name: "ExpressJs" },
-	{ id: 11, name: "NextJs" },
-	{ id: 12, name: "NestJs" },
-	{ id: 13, name: "MongoDB" },
-	{ id: 14, name: "PostGres" },
+	{ id: 1, name: "HTML/CSS/SCSS/BootStrap/Tailwind" },
+	{ id: 2, name: "JavaScript/TypeScript" },
+	{ id: 3, name: "Git/Github/GitLab/Bitbucket" },
+	{ id: 4, name: "ReactJs" },
+	{ id: 5, name: "NextJs" },
+	{ id: 6, name: "React Native" },
+	{ id: 7, name: "NodeJs" },
+	{ id: 8, name: "ExpressJs" },
+	{ id: 9, name: "Ionic" },
+	{ id: 10, name: "NestJs" },
+	{ id: 11, name: "MongoDB" },
+	{ id: 12, name: "PostGres" },
 ];
 
 export { projects, others, skills };

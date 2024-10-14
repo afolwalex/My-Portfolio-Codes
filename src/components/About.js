@@ -7,13 +7,13 @@ const About = () => {
 			<div className="content">
 				<h5>Hello, I am Afolabi Olawale</h5>
 				<p>
-					Aside being the software developer you are looking for, I'm
-					also a content writer with great flair for paying attention
-					to details.
+					I am the guy you are looking for. Be rest assured, I pay
+					great attention to details and my time management skills is
+					superb!
 				</p>
 				<p>
-					I'm a highly productive Software Developer with proven years
-					of experience in web and mobile application development.
+					I'm a highly skilled software developer with proven years of
+					experience in web and mobile application development.
 				</p>
 				<Link
 					to="contact"

@@ -1,5 +1,5 @@
 import React from "react";
-import { BsWhatsapp, BsLinkedin, BsTwitter, BsMailbox } from "react-icons/bs";
+import { BsWhatsapp, BsLinkedin, BsTwitter } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 
 const Contact = () => {
@@ -32,7 +32,7 @@ const Contact = () => {
 				</div>
 				<p className="top">Here is my resume for your perusal.</p>
 				<a
-					href="https://drive.google.com/file/d/1mz-Bu3HSzwkj157dhb3lhzBbQUM_ee8s/view"
+					href="https://drive.google.com/file/d/1qkawQ-PWrMlgT4iS7kbHGzpK0oLeed57/view?usp=drive_link"
 					target={"_blank"}
 					className="main-btn"
 				>

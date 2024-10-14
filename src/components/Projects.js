@@ -24,11 +24,12 @@ const Projects = () => {
 							<h5>{p.title}</h5>
 							<p className="para">{p.description}</p>
 
-							<ul className="list">
+							{/* <ul className="list">
 								{p.task.map((t, i) => (
 									<li key={i + 1}>{t}</li>
 								))}
-							</ul>
+							</ul> */}
+							<p className="role">Role: {p.task}</p>
 							<div className="flx">
 								<a
 									href={p.link}
@@ -43,12 +44,12 @@ const Projects = () => {
 					))}
 				</div>
 				<div className="project-others">
-					<p>Other mentions includes:</p>
+					<p>Other worthy mentions:</p>
 					<ul>
 						{others.map((o) => (
 							<li key={o.id}>
 								<a href={o.link} target={"_blank"}>
-									{o.name}
+									{o.name} - ({o.desc})
 								</a>
 							</li>
 						))}
